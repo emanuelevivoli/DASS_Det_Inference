@@ -12,8 +12,6 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from dass_det.utils import bboxes_iou, intersect, cxcywh2xyxy
-
 from .network_blocks import BaseConv, DWConv
 
 

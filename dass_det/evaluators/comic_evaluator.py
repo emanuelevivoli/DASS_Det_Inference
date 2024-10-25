@@ -17,7 +17,7 @@ from chainercv.evaluations import eval_detection_voc, calc_detection_voc_prec_re
 
 import torch
 
-from dass_det.utils import (
+from ..utils import (
     postprocess,
     xyxy2xywh
 )

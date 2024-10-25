@@ -15,7 +15,7 @@ import random
 import cv2
 import numpy as np
 
-from dass_det.utils.boxes import xyxy2cxcywh
+from ..utils.boxes import xyxy2cxcywh
 
 
 def draw_ellipse(img, center, radius_x, radius_y, color=(255, 255, 255)):
